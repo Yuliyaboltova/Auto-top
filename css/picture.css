@@ -11,7 +11,7 @@
 }
 
 .main-picture-container {
-  background-image: url(../img/ab-me.png);
+  background-image: url(../images/img/ab-me.png);
   background-position-x: right;
   /* min-height: calc(100vw * 0.235);   */
   min-height: calc(100vw * 0.41);
@@ -154,7 +154,7 @@ color: #fff;
   .main-picture-container {
     background-position-x: left;
     min-height: calc(100vw * 1.328);
-    background-image: url(/images/img/ab-me-shot.jpg);
+    background-image: url(../images/img/ab-me-shot.jpg);
   }
 
 }
