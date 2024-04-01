@@ -11,7 +11,7 @@
 }
 
 .main-picture-container {
-  background-image: url(ab-me.png);
+  background-image: url(../img/ab-me.png);
   background-position-x: right;
   /* min-height: calc(100vw * 0.235);   */
   min-height: calc(100vw * 0.41);
