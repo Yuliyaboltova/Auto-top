@@ -1,0 +1,128 @@
+/*services*/
+
+.stages-work{   
+padding-top: 50px;
+padding-bottom: 50px;
+  max-width: 100%;
+ /* background-color: #e2e8ef;  */
+background:url(/img-fon/service-black.png) no-repeat center;
+ color: #fff; 
+ background-size:cover;
+ } 
+
+ .services-fon {
+  /* height: 600px; */   /* высоту не делать лучьше по контенту*/
+  /* background:#f4f6fb ; */
+  background:#fff ;
+ }
+
+ .services-headerpict .one{
+color: #8F0C2C; 
+/* color: #C9C6C1; */
+/* opacity: 0.5;  */
+font-size: 80px;
+/* z-index: 2; */
+font-family: 'Roboto Flex', sans-serif;
+font-weight: 600;
+ }
+ .services-headerpict .zero{
+	color: #52565e;;
+	opacity: 0.5;
+	font-size: 80px;
+	font-family: 'Roboto Flex', sans-serif;
+	font-weight: 600;
+ }
+
+.services-items{
+ z-index: 1;
+  display: flex;
+	justify-content: space-between;
+  flex-wrap: wrap;
+ }
+
+.services-item{
+	z-index: 1;
+	color: #fff;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	border:  0.2px  solid #b0b8c0;
+	width: calc(33.333% - 30px);
+margin-bottom: 50px;
+
+ }
+
+.services-item-header{
+  display: flex;
+ flex-direction: column;
+ 
+ }
+
+ .stages-work-h2{
+color:#fff;
+ }
+ .body-title {
+
+text-align: center;
+padding-bottom: 40px;
+
+ }
+.services-headerpict{
+	 background-color: transparent;
+  /* color: #e2e8ef; */
+   color: #b0b8c0; 
+	 font-size: 35px;
+	 font-weight: 300;
+font-family: var(--font-family4);
+  /* text-align: center; если делаем flex его убираем  */ 
+  display: flex;
+  /* line-height: 60px; выравнивание цифры по центру */
+  }
+
+
+.services-headertext{
+   width: 78%;
+	margin-top: -52px;
+   }
+
+.services-item-text{
+    padding-top: 10px;
+   }
+
+.seo-text{
+ 
+
+  /* width: 1170px;
+  margin: 0 auto; */
+  font-family: Arial;
+  }
+
+.seo-text p{
+  padding-bottom: 20px;
+  }
+
+	.footer{
+margin-top: 0;
+	}
+
+	@media (max-width: 1023px) {
+		.services-item {
+			width: calc(50% - 20px);
+		}
+		.stages-work{
+margin-right: 20px;
+margin-left: 20px;
+		}
+
+		.services-headertext h3{
+font-size: 23px;
+		}
+
+
+	}
+	@media (max-width: 767px) {
+		.services-item {
+			margin: 16px;
+			width: 100%;
+		}
+	}
